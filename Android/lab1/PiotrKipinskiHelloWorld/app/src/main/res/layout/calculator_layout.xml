@@ -17,48 +17,47 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
-        android:layout_margin="10sp"
-        android:theme="@style/CalculatorButtonTheme">
+        android:layout_marginBottom="10sp">
 
-        <TableRow>
+        <TableRow android:theme="@style/CalculatorTableRowTheme">
             <Button
-                android:text="1" android:paddingVertical="15sp"/>
+                android:text="1"/>
             <Button
-                android:text="2" android:paddingVertical="15sp"/>
+                android:text="2"/>
             <Button
-                android:text="3" android:paddingVertical="15sp"/>
+                android:text="3"/>
             <Button
-                android:text="/" android:paddingVertical="15sp"/>
+                android:text="/"/>
         </TableRow>
-        <TableRow>
+        <TableRow android:theme="@style/CalculatorTableRowTheme">
             <Button
-                android:text="4" android:paddingVertical="15sp"/>
+                android:text="4"/>
             <Button
-                android:text="5" android:paddingVertical="15sp"/>
+                android:text="5"/>
             <Button
-                android:text="6" android:paddingVertical="15sp"/>
+                android:text="6"/>
             <Button
-                android:text="-" android:paddingVertical="15sp"/>
+                android:text="-"/>
         </TableRow>
-        <TableRow>
+        <TableRow android:theme="@style/CalculatorTableRowTheme">
             <Button
-                android:text="7" android:paddingVertical="15sp"/>
+                android:text="7"/>
             <Button
-                android:text="8" android:paddingVertical="15sp"/>
+                android:text="8"/>
             <Button
-                android:text="9" android:paddingVertical="15sp"/>
+                android:text="9"/>
             <Button
-                android:text="+" android:paddingVertical="15sp"/>
+                android:text="+"/>
         </TableRow>
-        <TableRow>
+        <TableRow android:theme="@style/CalculatorTableRowTheme">
             <Button
-                android:text="C" android:paddingVertical="15sp"/>
+                android:text="C"/>
             <Button
-                android:text="0" android:paddingVertical="15sp"/>
+                android:text="0"/>
             <Button
-                android:text="." android:paddingVertical="15sp"/>
+                android:text="."/>
             <Button
-                android:text="=" android:paddingVertical="15sp"/>
+                android:text="="/>
         </TableRow>
     </TableLayout>
 </RelativeLayout>
