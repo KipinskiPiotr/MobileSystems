@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100sp"
+        android:layout_marginHorizontal="20sp"
+        android:textSize="30sp"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10sp"
+        android:theme="@style/CalculatorButtonTheme">
+
+        <TableRow>
+            <Button
+                android:text="1" android:paddingVertical="15sp"/>
+            <Button
+                android:text="2" android:paddingVertical="15sp"/>
+            <Button
+                android:text="3" android:paddingVertical="15sp"/>
+            <Button
+                android:text="/" android:paddingVertical="15sp"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:text="4" android:paddingVertical="15sp"/>
+            <Button
+                android:text="5" android:paddingVertical="15sp"/>
+            <Button
+                android:text="6" android:paddingVertical="15sp"/>
+            <Button
+                android:text="-" android:paddingVertical="15sp"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:text="7" android:paddingVertical="15sp"/>
+            <Button
+                android:text="8" android:paddingVertical="15sp"/>
+            <Button
+                android:text="9" android:paddingVertical="15sp"/>
+            <Button
+                android:text="+" android:paddingVertical="15sp"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:text="C" android:paddingVertical="15sp"/>
+            <Button
+                android:text="0" android:paddingVertical="15sp"/>
+            <Button
+                android:text="." android:paddingVertical="15sp"/>
+            <Button
+                android:text="=" android:paddingVertical="15sp"/>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

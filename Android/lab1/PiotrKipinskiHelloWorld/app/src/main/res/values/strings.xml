@@ -3,4 +3,5 @@
     <string name="hello_string">Full stream ahead from XML file</string>
     <string name="adventure_string">To the adventure</string>
     <string name="roll">ROLL</string>
+    <string name="calculator_default_text">Calculate something...</string>
 </resources>

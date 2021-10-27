@@ -29,10 +29,10 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingHorizontal="30sp"
+        android:paddingHorizontal="50sp"
         android:paddingVertical="10sp"
         android:text="@string/roll"
-        android:textSize="26sp"
+        android:textSize="20sp"
         android:textColor="@android:color/black"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
