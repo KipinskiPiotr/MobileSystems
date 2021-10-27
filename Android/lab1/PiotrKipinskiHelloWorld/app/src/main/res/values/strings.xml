@@ -3,5 +3,7 @@
     <string name="hello_string">Full stream ahead from XML file</string>
     <string name="adventure_string">To the adventure</string>
     <string name="roll">ROLL</string>
-    <string name="calculator_default_text">Calculate something...</string>
+    <string name="calculate_bmi_button_text">OBLICZ INDEX BMI</string>
+    <string name="weight_tooltip">Waga w kg</string>
+    <string name="height_tooltip">Wzrost w cm</string>
 </resources>

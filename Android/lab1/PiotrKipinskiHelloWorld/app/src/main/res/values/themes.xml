@@ -23,4 +23,8 @@
         <item name="android:layout_width">75sp</item>
         <item name="android:layout_height">65sp</item>
     </style>
+    <style name="CalculateBMIButtonTheme" parent="Theme.PiotrKipinskiHelloWorld">
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorOnPrimary">@color/black</item>
+    </style>
 </resources>
