@@ -19,4 +19,14 @@ class MenuActivity : AppCompatActivity() {
         val intent = Intent(this, HowManyFingersActivity::class.java)
         startActivity(intent)
     }
+
+    fun runDicesActivity(view: android.view.View) {
+        val intent = Intent(this, DicesActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun runBmiActivity(view: android.view.View) {
+        val intent = Intent(this, BmiActivity::class.java)
+        startActivity(intent)
+    }
 }

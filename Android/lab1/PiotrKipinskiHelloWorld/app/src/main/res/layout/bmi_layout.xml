@@ -32,14 +32,16 @@
         android:text="@string/calculate_bmi_button_text"
         android:layout_below="@+id/height_edit_text"
         android:layout_marginTop="40sp"
-        android:theme="@style/CalculateBMIButtonTheme"/>
+        android:theme="@style/CalculateBMIButtonTheme"
+        android:onClick="calculateBmi"/>
 
     <ImageView
+        android:id="@+id/bmi_image_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/healthy"
-        android:layout_centerHorizontal="true"
         android:layout_below="@+id/calculate_bmi_button"
-        android:paddingBottom="20sp"/>
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="20sp"
+        android:src="@drawable/healthy" />
 
 </RelativeLayout>

@@ -17,7 +17,7 @@ class HowManyFingersActivity : AppCompatActivity() {
             Toast.makeText(this, "You have to pick a number first!", Toast.LENGTH_LONG).show()
             return
         }
-        val randomNumber = Random.nextInt(1, 10)
+        val randomNumber = Random.nextInt(1, 11)
         val userNumber = number_edit_text.text.toString().toInt()
         if (randomNumber == userNumber) {
             result_text_view.text = "Congratulations! You guessed right!"
