@@ -19,7 +19,7 @@ class BmiActivity : AppCompatActivity() {
         if (weight_edit_text.text.isEmpty() or height_edit_text.text.isEmpty()) {
             Toast.makeText(
                 this,
-                "You have to type proper measures to calculate!",
+                "Musisz podać prawidłowe wymiary aby wyliczyć BMI!",
                 Toast.LENGTH_LONG
             ).show()
             return
