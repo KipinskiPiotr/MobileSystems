@@ -15,10 +15,16 @@
         <entry key="..\:/Users/Piotr/Documents/Systemy_mobilne/lab1/PiotrKipinskiHelloWorld/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/Piotr/Documents/Systemy_mobilne/lab1/PiotrKipinskiHelloWorld/app/src/main/res/layout/dice_layout.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/Piotr/Documents/Systemy_mobilne/lab1/PiotrKipinskiHelloWorld/app/src/main/res/layout/weekend_layout.xml" value="1.2648026315789473" />
+        <entry key="..\:/Users/piotr/Documents/Systemy_mobilne/MobileSystems/Android/lab1/PiotrKipinskiHelloWorld/app/src/main/res/layout/activity_get_value.xml" value="0.3078125" />
+        <entry key="..\:/Users/piotr/Documents/Systemy_mobilne/MobileSystems/Android/lab1/PiotrKipinskiHelloWorld/app/src/main/res/layout/activity_list.xml" value="0.33" />
+        <entry key="..\:/Users/piotr/Documents/Systemy_mobilne/MobileSystems/Android/lab1/PiotrKipinskiHelloWorld/app/src/main/res/layout/activity_menu.xml" value="0.33" />
+        <entry key="..\:/Users/piotr/Documents/Systemy_mobilne/MobileSystems/Android/lab1/PiotrKipinskiHelloWorld/app/src/main/res/layout/flower_list_item.xml" value="0.3078125" />
+        <entry key="..\:/Users/piotr/Documents/Systemy_mobilne/MobileSystems/Android/lab1/PiotrKipinskiHelloWorld/app/src/main/res/layout/flower_list_item_1.xml" value="0.3078125" />
+        <entry key="..\:/Users/piotr/Documents/Systemy_mobilne/MobileSystems/Android/lab1/PiotrKipinskiHelloWorld/app/src/main/res/layout/input_box_layout.xml" value="0.3078125" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
