@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PKipinskiHelloWorld2.HowManyFingers">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="resultLabel" Text="" FontSize="Large" HorizontalTextAlignment="Center" Padding="100"/>
+            <Label Text="Wpisz liczbe od 1 do 10" TextColor="Black" FontAttributes="Bold" FontSize="Medium" HorizontalTextAlignment="Center" BackgroundColor="Aqua"/>
+            <Entry x:Name="numberEntry" Placeholder="Wpisz tutaj liczbe" HorizontalTextAlignment="Center" Keyboard="Numeric"/>
+            <Button Text="Sprawdz" Clicked="PlayTheGame"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

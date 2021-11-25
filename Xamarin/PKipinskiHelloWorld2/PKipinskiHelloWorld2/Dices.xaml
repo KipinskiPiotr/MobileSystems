@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PKipinskiHelloWorld2.Dices">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Image x:Name="dice1" Source="dice1.png"/>
+                <Image x:Name="dice2" Source="dice1.png"/>
+            </StackLayout>
+            <Label x:Name="resultLabel" Text="" FontSize="Large" HorizontalTextAlignment="Center" Padding="100"/>
+            <Entry x:Name="numberEntry" Placeholder="Type number that you think will be rolled" HorizontalTextAlignment="Center" Keyboard="Numeric"/>
+            <Button Text="ROLL" Clicked="PlayTheGame" FontSize="Large"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
