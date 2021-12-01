@@ -9,6 +9,7 @@
         <Button Text="Run How Many Fingers" Clicked="runHowManyFingers"></Button>
         <Button Text="Run Dices" Clicked="runDices"></Button>
         <Button Text="Run BMI Calculator" Clicked="runBmiCalculator"></Button>
+        <Button Text="Run Flower List" Clicked="runFlowerList"></Button>
     </StackLayout>
 
 </ContentPage>

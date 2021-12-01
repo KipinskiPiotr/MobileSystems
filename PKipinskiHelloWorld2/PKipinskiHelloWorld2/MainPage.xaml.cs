@@ -35,5 +35,10 @@ namespace PKipinskiHelloWorld2
         {
             Navigation.PushAsync(new BmiCalculator());
         }
+
+        private void runFlowerList(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new FlowerList());
+        }
     }
 }
