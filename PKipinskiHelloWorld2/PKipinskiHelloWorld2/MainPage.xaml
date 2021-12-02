@@ -10,6 +10,7 @@
         <Button Text="Run Dices" Clicked="runDices"></Button>
         <Button Text="Run BMI Calculator" Clicked="runBmiCalculator"></Button>
         <Button Text="Run Flower List" Clicked="runFlowerList"></Button>
+        <Button Text="Run Flower List 2" Clicked="runFlowerList2"></Button>
     </StackLayout>
 
 </ContentPage>

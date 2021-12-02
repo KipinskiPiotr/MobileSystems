@@ -40,5 +40,10 @@ namespace PKipinskiHelloWorld2
         {
             Navigation.PushAsync(new FlowerList());
         }
+
+        private void runFlowerList2(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new FlowerList2());
+        }
     }
 }

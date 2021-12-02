@@ -3,19 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Input;
+
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace PKipinskiHelloWorld2
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-
-    public partial class FlowerList : ContentPage
+    public partial class FlowerList2 : ContentPage
     {
         public IList<Flower> Flowers { get; private set; }
 
-        public FlowerList()
+        public FlowerList2()
         {
             InitializeComponent();
 
@@ -85,12 +84,10 @@ namespace PKipinskiHelloWorld2
 
             BindingContext = this;
         }
-        async void OnSelectionChanged(object sender, SelectionChangedEventArgs e)
+        void OnSelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             Flower selectedItem = e.CurrentSelection[0] as Flower;
-            string result = await DisplayPromptAsync("Zmień nazwę", "", initialValue: selectedItem.Name);
-            selectedItem.Name = result;
-            selectedItem.NotifyNameChanged();
+            Navigation.PushAsync(new EditFlower(selectedItem));
         }
     }
 }
